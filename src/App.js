@@ -15,7 +15,7 @@ function App() {
   }
   const [TodoItem, setTodoItem] = useState([])
   const addTodo = (title, desc) => {
-    console.log('I am adding to item', title, desc)
+
     let sno;
       if(TodoItem.length===0){
         sno = 0;
